@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres:15-alphine
-    environment: {POSTGRES_PASSWORD: postgres}
-    ports: ['5432:5432']
+    image: postgres:15-alpine
+    environment: { POSTGRES_PASSWORD: postgres }
+    ports: [ '5432:5432' ]
     restart: always
